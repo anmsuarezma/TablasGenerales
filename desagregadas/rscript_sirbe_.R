@@ -3,7 +3,7 @@ library(xlsx)
 library(openxlsx)
 library(extrafont)
 #Definir ubicación
-setwd("/home/nickthor/Projects/SDIS_SIRBE/analisis_102016/")
+setwd("/tmp/SDIS_SIRBE")
 #Cargar base de datos
 base_sdis <- read.csv("CargueSIRBEVejez.csv",header = T)
 #Construir una tabla con dos variables
